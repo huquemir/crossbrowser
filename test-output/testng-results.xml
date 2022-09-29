@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8788" started-at="2022-09-29T08:25:52Z" finished-at="2022-09-29T08:26:01Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.MyRunner@2898ac89]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.MyRunner@1018bde2]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.MyRunner@186f8716]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="EdgeTest" duration-ms="2824" started-at="2022-09-29T08:25:52Z" finished-at="2022-09-29T08:25:55Z">
+      <class name="com.runner.MyRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.runner.MyRunner@186f8716]" name="setUpClass" is-config="true" duration-ms="232" started-at="2022-09-29T08:25:52Z" finished-at="2022-09-29T08:25:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.runner.MyRunner@186f8716]" name="beforeClass" is-config="true" duration-ms="17" started-at="2022-09-29T08:25:52Z" finished-at="2022-09-29T08:25:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.MyRunner@186f8716]" name="feature" duration-ms="2458" started-at="2022-09-29T08:25:52Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-09-29T08:25:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User is able to click on the sign in button]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.runner.MyRunner@186f8716]" name="afterClass" is-config="true" duration-ms="3" started-at="2022-09-29T08:25:55Z" finished-at="2022-09-29T08:25:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.MyRunner@186f8716]" name="tearDownClass" is-config="true" duration-ms="11" started-at="2022-09-29T08:25:55Z" finished-at="2022-09-29T08:25:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runner.MyRunner -->
+    </test> <!-- EdgeTest -->
+    <test name="FirefoxTest" duration-ms="4645" started-at="2022-09-29T08:25:52Z" finished-at="2022-09-29T08:25:57Z">
+      <class name="com.runner.MyRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.runner.MyRunner@1018bde2]" name="setUpClass" is-config="true" duration-ms="232" started-at="2022-09-29T08:25:52Z" finished-at="2022-09-29T08:25:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.runner.MyRunner@1018bde2]" name="beforeClass" is-config="true" duration-ms="17" started-at="2022-09-29T08:25:52Z" finished-at="2022-09-29T08:25:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.MyRunner@1018bde2]" name="feature" duration-ms="4298" started-at="2022-09-29T08:25:52Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-09-29T08:25:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User is able to click on the sign in button]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.runner.MyRunner@1018bde2]" name="afterClass" is-config="true" duration-ms="1" started-at="2022-09-29T08:25:57Z" finished-at="2022-09-29T08:25:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.MyRunner@1018bde2]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2022-09-29T08:25:57Z" finished-at="2022-09-29T08:25:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.runner.MyRunner -->
+    </test> <!-- FirefoxTest -->
+    <test name="ChromeTest" duration-ms="8788" started-at="2022-09-29T08:25:52Z" finished-at="2022-09-29T08:26:01Z">
+      <class name="com.runner.MyRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.runner.MyRunner@2898ac89]" name="setUpClass" is-config="true" duration-ms="232" started-at="2022-09-29T08:25:52Z" finished-at="2022-09-29T08:25:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.runner.MyRunner@2898ac89]" name="beforeClass" is-config="true" duration-ms="17" started-at="2022-09-29T08:25:52Z" finished-at="2022-09-29T08:25:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.runner.MyRunner@2898ac89]" name="feature" duration-ms="8443" started-at="2022-09-29T08:25:52Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2022-09-29T08:26:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User is able to click on the sign in button]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.runner.MyRunner@2898ac89]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2022-09-29T08:26:01Z" finished-at="2022-09-29T08:26:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.runner.MyRunner@2898ac89]" name="afterClass" is-config="true" duration-ms="0" started-at="2022-09-29T08:26:01Z" finished-at="2022-09-29T08:26:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.runner.MyRunner -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

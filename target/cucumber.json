@@ -1,0 +1,46 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User can login and click on the sign in button",
+        "description": "",
+        "id": "user-is-able-to-click-on-the-sign-in-button;user-can-login-and-click-on-the-sign-in-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8393368916,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is opens a browser and navigates to URL",
+            "match": {
+              "location": "StepDef.user_is_opens_a_browser_and_navigates_to_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User clicks on the sign in button",
+            "match": {
+              "location": "StepDef.user_clicks_on_the_sign_in_button()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "User is able to click on the sign in button",
+    "description": "",
+    "id": "user-is-able-to-click-on-the-sign-in-button",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
